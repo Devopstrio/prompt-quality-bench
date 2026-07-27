@@ -19,3 +19,6 @@ dependencies = [
 
 [project.scripts]
 pqbench = "pqbench.cli.main:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
