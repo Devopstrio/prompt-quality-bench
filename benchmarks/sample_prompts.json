@@ -1,0 +1,12 @@
+[
+  {
+    "id": "prompt-001",
+    "category": "summarization",
+    "prompt": "Summarize the key architectural benefits of microservices versus monolithic systems."
+  },
+  {
+    "id": "prompt-002",
+    "category": "code_generation",
+    "prompt": "Write a Python function to validate email address syntax using regular expressions."
+  }
+]
