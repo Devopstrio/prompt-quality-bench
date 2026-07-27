@@ -7,6 +7,7 @@ name = "prompt-quality-bench"
 version = "1.0.0"
 description = "Enterprise Prompt Engineering Benchmark & Quality Assessment CLI Utility"
 authors = [{ name = "Devopstrio", email = "engineering@devopstrio.co.uk" }]
+requires-python = ">=3.9"
 dependencies = [
     "click>=8.1.0",
     "pydantic>=2.5.0",
