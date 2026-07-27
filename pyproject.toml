@@ -6,8 +6,9 @@ build-backend = "setuptools.build_meta"
 name = "prompt-quality-bench"
 version = "1.0.0"
 description = "Enterprise Prompt Engineering Benchmark & Quality Assessment CLI Utility"
-authors = [{ name = "Devopstrio", email = "engineering@devopstrio.co.uk" }]
+readme = "README.md"
 requires-python = ">=3.9"
+authors = [{ name = "Devopstrio", email = "engineering@devopstrio.co.uk" }]
 dependencies = [
     "click>=8.1.0",
     "pydantic>=2.5.0",
