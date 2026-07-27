@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prompt-quality-bench"
+version = "1.0.0"
+description = "Enterprise Prompt Engineering Benchmark & Quality Assessment CLI Utility"
+authors = [{ name = "Devopstrio", email = "engineering@devopstrio.co.uk" }]
+dependencies = [
+    "click>=8.1.0",
+    "pydantic>=2.5.0",
+    "httpx>=0.26.0",
+    "pyyaml>=6.0.1",
+    "tabulate>=0.9.0",
+    "structlog>=24.1.0"
+]
+
+[project.scripts]
+pqbench = "pqbench.cli.main:cli"
